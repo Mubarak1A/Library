@@ -27,7 +27,7 @@ header{
 }
 
 #my-books:hover{
-    color: rgb(129, 126, 126);
+    color: rgb(190, 184, 184);
     cursor: pointer;
 }
 
@@ -35,7 +35,8 @@ section{
     width: 80%;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(49, 47, 47);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,13 +53,56 @@ section{
     cursor: pointer;
 }
 
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
 
+form > div{
+    margin: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+table{
+    border: solid black 2px;
+    padding: 10px;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+
+td, th{
+    border: solid black 1px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    font-size: 1.3rem;
+}
 
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     text-align: center;
     right: 0;
     left: 0;
     background-color: rgb(167, 159, 159);
+    margin-top: 40px;
+    padding: 5px;
 }
